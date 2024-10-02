@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images insert, table & list </title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="image.jpg" alt="Rise of the tomb rider">
+    <img height="150" width="250" src="image.jpg" alt="Rise of the tomb rider">    <!-- change image height & width using height & width tag-->
+                                                                                
+    <img src="image2.jpg" alt="Image not present">      <!--alt is used if your image file is not present in HTML file 
+                                                            in this case alt display the title name of image i.e."Image not present" -->
+                                                        
+    <table>  
+        <caption>Employe details</caption>
+        <thead>
+             <tr>                        <!-- <tr> table row -->
+                <th>Name</th>            <!-- <th> table heading -->
+                <th>Age</th> 
+                <th>fav language</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr> 
+                <td>Prashant</td>        <!-- <td> table data -->
+                <td>21</td> 
+                <td>javaScript</td>
+            </tr>
+            <tr> 
+                <td colspan="2">Sam</td>     <!-- is space is neened then use colspan & rowspan tag  -->
+                <!-- <td>19</td>  -->
+                <td rowspan="2">java</td>
+            </tr> 
+            <tr> 
+                <td colspan="2">Rahul</td>
+            </tr> 
+        </tbody>                              <!-- <thead></thead> and <tbody></tbody> are used for grouping the table content--> 
+    </table> 
+
+    <ul>                                      <!-- <ul> unordered list-->
+        <li>Prashant</li>             
+        <li>Shubham</li> 
+        <li>Rakesh</li>
+    </ul>  
+
+    <ol>                                      <!-- <ol> ordered list-->
+        <li>Prashant</li>
+        <li>Shubham</li> 
+        <li>Rakesh</li>
+    </ol>  
+
+    <ul type="square" > 
+        <li>Prashant</li> 
+        <li>Shubham</li> 
+        <li>Rakesh</li>
+    </ul>  
+
+    <ul type="circle" > 
+        <li>Prashant</li> 
+        <li>Shubham</li> 
+        <li>Rakesh</li>
+    </ul> 
+
+    <ol type='I' > 
+        <li>Prashant</li> 
+        <li>Shubham</li> 
+        <li>Rakesh</li>
+    </ol> 
+
+    <ol type='i' > 
+        <li>Prashant</li> 
+        <li>Shubham</li> 
+        <li>Rakesh</li>
+    </ol>
+
+    <ol type='A' > 
+        <li>Prashant</li> 
+        <li>Shubham</li> 
+        <li>Rakesh</li>
+    </ol>    
+
+    <ol type='a' > 
+        <li>Prashant</li> 
+        <li>Shubham</li> 
+        <li>Rakesh</li>
+    </ol>
+    
+    <dl>                              <!-- <dl> defination list-->
+        <dt>HTML</dt> 
+        <dd>Hii, I'm learning HTML</dd>  
+
+        <dt>CSS</dt> 
+        <dd>Hii, i'm learning CSS</dd>  
+        
+        <dt>javaScript</dt> 
+        <dd>Hii, i'm learning javaScript</dd> 
+    </dl>
+    
+</body>
+
+</html>

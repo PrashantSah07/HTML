@@ -1,0 +1,22 @@
+.bg-yellow {
+    background-color: cyan;
+}
+
+#firstdiv {
+    color: red; 
+}
+
+#seconddiv {
+    background-color: orange;
+}
+
+.redd {
+    color: blue;
+}
+
+#mainBox {
+    border: solid black;
+    color: pink;
+    background-color: rgb(225, 103, 123);
+}  
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your train ticket</title>
+</head>
+
+<body>
+    <ul style="background-color:rgb(255, 242, 219)"><br>
+        <li>Note: Please submit full name of the passengers instead of initials</li>
+        <li>The ID card will be required during journey</li><br>
+    </ul>
+    <h2>Passenger Details</h2><br>
+
+    <form action="post">
+
+        <div>
+            <input type="text" name="name" id="username" placeholder="Passenger Name">
+            <input type="text" name="age" id="userage" placeholder="Age">
+            <select name="gender">
+                <option value="gender">Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="transgender">Transgender</option>
+            </select>
+            <select name="region">
+                <option value="india">India</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="china">China</option>
+                <option value="russia">Russia</option>
+                <option value="bangladesh">Bangladesh</option>
+                <option value="nepal">Nepal</option>
+                <option value="srilanka">Srilanka</option>
+            </select>
+            <select name="preference">
+                <option value="No Preference">No Preference</option>
+                <option value="Lower">Lower</option>
+                <option value="Middle">Middle</option>
+                <option value="Upper">Upper</option>
+                <option value="Side Lower">Side Lower</option>
+                <option value="Side Upper">Side Upper</option>
+            </select>
+            <p style="color: red;">Please enter a valid name between 3and16 characters</p><br>
+        </div>
+
+        <h2>Contact Details</h2>
+        <h4>(Ticket details will be sent to email- pr******@gmail.com and registered mobile number 96******50)</h4>
+
+        <div>
+            <input type="text" name="number" id="phone number" placeholder="Passenger mobile number*">
+            <label style="color: red;" for="phone number">Please enter a valid mobile number</label>
+        </div><br>
+        <h2>Other Preferences</h2>
+        <div>
+            <input type="checkbox" name="preference" id="Other preference1" value="yes">
+            <label for="Other preference1">Consider for Auto Upgradation.</label>
+            <input type="checkbox" name="preference" id="Other preference2" value="yes">
+            <label for="Other preference2">Book only if confirm berths are allotted.</label><br><br>
+            <select name="preference">
+                <option value="Reservation Choise">Reservation Choise</option>
+                <option value="Book, only if all berths are allotted in same coach.">Book, only if all berths are
+                    allotted in same coach.</option>
+                <option value="Book, only if at least 1 lower berth is allotted">Book, only if at least 1 lower berth is
+                    allotted</option>
+                <option value="Book, only if 2 lower berth is allotted">Book, only if 2 lower berth is allotted</option>
+            </select><br><br>
+            <input type="text" name="preference" id="Other preference3" placeholder="Preferred Coach No.">
+        </div><br><br>
+        <h2>Travel Insurance (Incl. of GST) </h2>
+        <p>Do you want to take Travel Insurance (₹0.45/person)?</p>
+        <div>
+            <input type="checkbox" name="Travel Insurance" id="Travel Insurance1" value="yes">
+            <label for="Travel Insurance1">Yes, and I accept the terms and conditions</label>
+            <input type="checkbox" name="Travel Insurance" id="Travel Insurance2" value="yes">
+            <label for="Travel Insurance2">No, I don't want travel insurance</label>
+        </div><br><br>
+        <h2>Payment Mode</h2>
+        <div>
+            <input type="radio" name="Payment Mode" id="Payment1" value="yes">
+            <label for="payment1">Pay through Credit & Debit Cards / Net Banking / Wallets / Bharat QR / Pay on
+                Delivery/ Rewards and Others </label>
+            <p>Convenience Fee: ₹15/- + GST</p>
+        </div><br>
+        <div>
+            <input type="radio" name="Payment Mode" id="Payment2" value="yes">
+            <label for="Payment2 Pay through BHIM/UPI"> Pay through BHIM/UPI</label>
+            <p>Convenience Fee: ₹10/- + GST</p>
+        </div>
+        <div>
+            <input type="submit" name="submit">
+            <a target="_blank" href="https://www.irctc.co.in/">click here</a>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

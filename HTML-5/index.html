@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Let's learn it!</title>
+</head>
+
+<body>
+    <h1>Forms to apply any booking website or Exam</h1>
+    <form action="post">
+
+        <div>
+            <label for="27">Enter your username:</label>
+            <input type="text" id="27" name="Username" placeholder="Enter your username">    <!-- input type- text used to write text format-->
+        </div>
+        <div>
+            <label for="password">Enter your password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">  <!-- input type- password used to write password format-->
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">       <!-- input type- radio used to choose an option and tick-->
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">    <!-- input type- checkbox used to tick and agree-->
+            <label for="subscribe">Subscribe to newsletter</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment</label>
+            <br>
+            <textarea name="Comment" id="comment" cols="50" rows="10"></textarea>    <!--textarea is used to write a comment or text-->
+        </div>
+        <div>
+            <select name="Phone">                              <!-- select tag is used to select an given option-->
+                <option value="Iphone">Iphone</option>
+                <option value="Samsung">Samsung</option>
+                <option value="Xiaomi">Xiaomi</option>
+            </select>
+        </div> 
+        <div> 
+            <input type="submit" value="submit">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
